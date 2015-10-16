@@ -8,7 +8,7 @@ Processing
 Links
 -----
 
-
+- [processing.org](https://processing.org) [[reference](https://processing.org/reference/)]
 
 
 ***
@@ -103,6 +103,15 @@ PShape
 `strokeCap()`
 `strokeJoin()`
 
+---
+
+?:
+curve
+curvePoint
+curveVertex
+bezier
+bezierPoint
+
 
 Style
 -----
@@ -147,6 +156,12 @@ Interaction
 `mousePressed()`
 
 ...
+
+
+Reference
+=========
+
+sometime split into a reference section and other section.
 
 ***
 
