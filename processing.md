@@ -1,6 +1,8 @@
 Processing
 ==========
 
+[TOC]
+
 ---
 
 
@@ -10,14 +12,44 @@ Links
 
 - [processing.org](https://processing.org) [[reference](https://processing.org/reference/)]
 
+##### Sharing and Ideas
+
+- [OpenProcessing](http://openprocessing.org/)
+- [Sketchpad](http://sketchpad.cc/) [[p5.js Sketchpad Studio](http://p5js.sketchpad.cc/)]
+[[blog](http://blog.sketchpad.cc/)]
+
+##### Blogs, etc.
+
+- [Processing Month](http://vormplus.be/blog/article/processing-month) - daily sketches which build up
+
 
 ***
 
+
+Tasks
+=====
+
+
+
+Reference
+=========
 
 
 
 
 Processing is a library on top of Java.
+
+Versions
+--------
+
+[Changes in Processing 3](https://github.com/processing/processing/wiki/Changes-in-3.0)
+
+Including:
+
+- `fullScreen()` function added, and should be first line of `setup()` (or `settings()`)
+- `displayWidth` / `displayHeight` are deprecated
+- `FX2D` renderer - which is on its way to becoming the default
+- `settings()` - for when you are using Processing without the preprocessor (e.g. from Eclipse)
 
 
 Basics
@@ -28,6 +60,8 @@ The two main functions are `setup()` and `draw()`.
 `size()`/`fullScreen()`
 
 `background()`
+
+If you are
 
 
 Draw Loop
@@ -43,10 +77,11 @@ Draw Loop
 Renderers
 ---------
 
-- ?
-- `P2D`
-- `P3D`
+- `JAVA2D` (default)
+- `P2D` - OPENGL, can do texture and lighting, unlike `JAVA2D`, and is faster but lower quality
+- `P3D` - OPENGL
 - `PDF`
+- `FX2D` new in version 3 and set to become the new default
 
 
 
@@ -58,6 +93,14 @@ Data Types
 
 Variables
 ---------
+
+
+
+`focused`
+`frameCount`
+`frameRate`
+`height`
+`width`
 
 
 ***
@@ -165,9 +208,24 @@ sometime split into a reference section and other section.
 
 ***
 
+Modes
+-----
+
+It seems that starting in versin 3 `PApplet` no longer inherits from Java `Applet`.
+
+- [Python Mode for Processing](http://py.processing.org/) [[GitHub](https://github.com/jdf/processing.py)]
+
+
 
 Libraries
 ---------
 
 toxiclibs
+
+---
+
+Processing Performance
+======================
+
+The `P2D` renderer is faster than Default but not as high quality.
 
