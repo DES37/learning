@@ -50,6 +50,10 @@ PImage
 PFont
 PShape
 
+PApplet
+PGraphics
+
+
 ---
 
 
