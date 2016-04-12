@@ -45,13 +45,7 @@ These are all of the Composite data types listed in the Reference:
 
 ### Processing Specific
 
-PVector
-PImage
-PFont
-PShape
-
-PApplet
-PGraphics
+See [[Processing Classes]](processing_classes.md)
 
 
 ---
