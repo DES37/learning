@@ -1,19 +1,17 @@
-Android
-=======
+# Android
 
 
 
 #### Links
 
-- [Processing for Android Wiki @ github](https://github.com/processing/processing-android/wiki)
-
-- [Android Processing Forum](https://forum.processing.org/one/android-processing.html)
-
-- [Android Problems (Forum Topic)](https://forum.processing.org/one/topic/android-problems.html) - very useful, possibly dated. Says that `ANDROID_HOME` should point to sdk bin, but I'm not convinced.
+* [Processing for Android](http://android.processing.org/)
+* [Processing for Android Wiki @ github](https://github.com/processing/processing-android/wiki)
+* [Android Processing Forum](https://forum.processing.org/one/android-processing.html)
+* [Android Problems (Forum Topic)](https://forum.processing.org/one/topic/android-problems.html) - very useful, possibly dated. Says that `ANDROID_HOME` should point to sdk bin, but I'm not convinced.
 
 ##### Misc
 
-- [Installing Android Studio on Mac OS X Yosemite](https://hrnn.github.io/2015/02/11/installing-android-studio-on-mac-os-x-yosemite/) - not sure if you need to set `STUDIO_JDK` - I didn't and no obvious problems.
+* [Installing Android Studio on Mac OS X Yosemite](https://hrnn.github.io/2015/02/11/installing-android-studio-on-mac-os-x-yosemite/) - not sure if you need to set `STUDIO_JDK` - I didn't and no obvious problems.
 
 
 ##### Other Libraries
@@ -21,8 +19,7 @@ Android
 - [ke:tai](http://ketai.org/) this looks good!
 
 
-Installation
-------------
+## Installation
 
 ### Android SDK
 
@@ -54,8 +51,7 @@ USB debugging is required I think.
 
 Devices can randomly lose connection and upload can silently fail, so verify connection with `adb devices -l`.
 
-Using
------
+## Using
 
 In AndroidMode Processing menus are changed. Running with a device attached automatically runs on device (not sure what happens if no device attachd).
 
@@ -64,7 +60,6 @@ Wiki has notes about in/compatibilities.
 Use `displayWidth` and `displayHeight` to target different screens.
 
 
-Emulator
---------
+## Emulator
 
 Processing should create an AVD when it tries to launch sketch, but doesn't seem to work. 

@@ -3,7 +3,7 @@ Shapes in Processing
 
 
 
-
+vs *immediate mode*
 
 
 
@@ -48,3 +48,26 @@ Many (most? all?) of the general shape functions are also available as methods o
 `beginShape`/`endShape`
 `vertex` / `curverVertex` / `bezierVertex`
 
+beginContour
+
+beginShape()   | 
+-------------  |
+default?       |
+POINTS         |
+LINES          |
+TRIANGLES      |
+TRIANGLE_FAN   |
+TRIANGLE_STRIP |
+QUADS          |
+QUAD_STRIP     |
+
+createShape()  |
+---------------|
+ELLIPSE        |
+RECT           |
+ARC            |
+TRIANGLE       |
+SPHERE         |
+BOX            |
+QUAD           |
+LINE           |

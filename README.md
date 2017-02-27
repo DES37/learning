@@ -1,5 +1,4 @@
-Processing
-==========
+# Processing
 
 [TOC]
 
@@ -7,8 +6,7 @@ Processing
 
 
 
-Links
------
+## Links
 
 - [processing.org](https://processing.org) [[reference](https://processing.org/reference/)]
 
@@ -25,22 +23,12 @@ Links
 
 ***
 
-
-Tasks
-=====
-
-
-
-Reference
-=========
-
-
+# Reference
 
 
 Processing is a library on top of Java.
 
-Versions
---------
+## Versions
 
 [Changes in Processing 3](https://github.com/processing/processing/wiki/Changes-in-3.0)
 
@@ -52,8 +40,7 @@ Including:
 - `settings()` - for when you are using Processing without the preprocessor (e.g. from Eclipse)
 
 
-Basics
-------
+## Basics
 
 The two main functions are `setup()` and `draw()`.
 
@@ -64,8 +51,7 @@ The two main functions are `setup()` and `draw()`.
 If you are
 
 
-Draw Loop
----------
+## Draw Loop
 
 `frameRate()`
 
@@ -73,26 +59,12 @@ Draw Loop
 `noLoop()`/`loop()`
 `redraw()`
 
-
-Renderers
----------
-
-- `JAVA2D` (default)
-- `P2D` - OPENGL, can do texture and lighting, unlike `JAVA2D`, and is faster but lower quality
-- `P3D` - OPENGL
-- `PDF`
-- `FX2D` new in version 3 and set to become the new default
-
-
-
 ***
 
-Data Types
-----------
+## Data Types
 
 
-Variables
----------
+## Variables
 
 
 
@@ -105,8 +77,7 @@ Variables
 
 ***
 
-Colors
-------
+## Colors
 
 `color()`
 
@@ -127,8 +98,7 @@ from `color` variable...
 - `brightness()`/`hue()`/`saturation()`
 
 
-Shapes
-------
+## Shapes
 
 PShape
 
@@ -156,16 +126,14 @@ bezier
 bezierPoint
 
 
-Style
------
+## Style
 
 `pushStyle()`/`popStyle()`
 
 ...
 
 
-Transformations
----------------
+## Transformations
 
 `pushMatrix()`/`popMatrix()`
 
@@ -193,39 +161,13 @@ Images, SVG, and Shapes and loading?
 ***
 
 
-Interaction
------------
+## Interaction
 
 `mousePressed()`
 
-...
-
-
-Reference
-=========
-
-sometime split into a reference section and other section.
-
 ***
 
-Modes
------
 
-It seems that starting in versin 3 `PApplet` no longer inherits from Java `Applet`.
+It seems that starting in version 3 `PApplet` no longer inherits from Java `Applet`.
 
-- [Python Mode for Processing](http://py.processing.org/) [[GitHub](https://github.com/jdf/processing.py)]
-
-
-
-Libraries
----------
-
-toxiclibs
-
----
-
-Processing Performance
-======================
-
-The `P2D` renderer is faster than Default but not as high quality.
 

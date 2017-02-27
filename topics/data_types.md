@@ -1,11 +1,8 @@
-Processing: Data Types
-======================
-
-
+# Processing: Data Types
 
 Java no unsigned?
 
-### Primitive
+## Primitive Data Types
 
 These are all of the Primitive data types listed in the Reference:
 
@@ -18,6 +15,7 @@ These are all of the Primitive data types listed in the Reference:
 7. int
 8. long
 
+Note: Processing does not have unsigned types.
 
 ### Composite Types
 
@@ -40,14 +38,6 @@ These are all of the Composite data types listed in the Reference:
 15. TableRow
 16. XML
 
-
-
-
-### Processing Specific
+## Processing Specific
 
 See [[Processing Classes]](processing_classes.md)
-
-
----
-
-

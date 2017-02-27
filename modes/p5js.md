@@ -1,7 +1,4 @@
-p5.js
-=====
-
-
+# p5.js
 
 
 
@@ -31,7 +28,9 @@ As per JavaScript
 Differences
 -----------
 
-`size()` &rarr; `createCanvas()` 
+`size()` &rarr; `createCanvas()`
+
+See [Processing transition @ p5 Wiki](https://github.com/processing/p5.js/wiki/Processing-transition).
 
 
 Renderers
@@ -40,10 +39,12 @@ Renderers
 1. `P2D` (default)
 2. `WEBGL`
 
+See [Getting started with WebGL in p5 @ p5 Wiki](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5).
+
 ----
 
 
-P5 Basics
+p5 Basics
 ---------
 
-The P5 editor is used to edit `js` files, and an `html` file is saved automatically, along withv`libraries` and `assets` folders
+The p5 editor is used to edit `js` files, and an `html` file is saved automatically, along withv`libraries` and `assets` folders

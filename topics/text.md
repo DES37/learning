@@ -1,27 +1,18 @@
-Processing: Strings and Text
-============================
-
-
+# Processing: Strings and Text
 
 #### Links
 
 - [Tutorial: Strings and Drawing Text](https://processing.org/tutorials/text/)
 - [Tutorial: Typography](https://processing.org/tutorials/typography/)
 
-
-
-String Data
------------
-
+## String Data
 
 Strings are defined inside double quotes, and characters inside single quotes.
 
 1. `print()`
 2. `println()`
 
-
-Drawing Text
-------------
+## Drawing Text
 
 `text()` draws text. 3 parameter version sets position. 4 parameter version sets bounding box.
 
@@ -36,7 +27,6 @@ Drawing Text
 `textWidth()` returns pixel width, very useful!
 
 `textMode()`
-
 
 ### Fonts
 
