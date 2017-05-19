@@ -41,6 +41,6 @@ The color of individual pixels or sections of an image may be read/changed using
 
 ## Etc
 
-Note: `PApplet` also has versions of all of these methods, which would appear to relate to the `PGraphics` object `PApplet.g` (note `PGraphics` is a subclass of `PImage`).
+Note: `PApplet` also has versions of all of these methods, which would appear to relate to the `PGraphics` object `PApplet.g` (note `PGraphics` is a subclass of `PImage`). Note: `mask()` can't be used on the main drawing surface, while `filter()` and `blend()` can. Not sure about the others.
 
-Also, compare blend() with blendMode()!
+Also, compare `blend()` with `blendMode()`!
