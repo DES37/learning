@@ -1,5 +1,7 @@
 # Images in Processing
 
+What is the proper strategy for converting from one file format to another, e.g. stripping alpha?
+
 ##### Ref
 
 * [PImage (reference)](https://processing.org/reference/PImage.html)
@@ -9,7 +11,10 @@
 ## The `PImage` Class
 
 `loadImage()`
+
 `createImage()`
+: specify width, height, and format. Use this instead of constructor.
+
 `imageMode()`
 
 `requestImage()`
@@ -22,6 +27,9 @@
 `width`
 
 `height`
+
+`format`
+: RGB (1), ARGB (2), ALPHA (4)
 
 ## `PImage` Methods
 
@@ -39,8 +47,8 @@ The color of individual pixels or sections of an image may be read/changed using
 
 `save()`
 
-## Etc
-
 Note: `PApplet` also has versions of all of these methods, which would appear to relate to the `PGraphics` object `PApplet.g` (note `PGraphics` is a subclass of `PImage`). Note: `mask()` can't be used on the main drawing surface, while `filter()` and `blend()` can. Not sure about the others.
 
 Also, compare `blend()` with `blendMode()`!
+
+

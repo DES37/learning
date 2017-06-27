@@ -1,28 +1,18 @@
-Processing Directory Structure
-==============================
+# Processing Directory Structure
 
+## Sketch Directories
 
+`code`?
 
+`data`
+: resources are expected here
 
-
-Sketch Directories
-------------------
-
-
-
-`code`
-
-
-
-Processing Directories
-----------------------
-
+## Processing Directories
 
 1. `libraries`
 2. `modes`
 3. `tools`
 4. `examples`
 
+## Library Development
 
-Library Development
--------------------

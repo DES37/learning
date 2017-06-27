@@ -71,8 +71,11 @@ If you are
 `focused`
 `frameCount`
 `frameRate`
+
 `height`
 `width`
+
+Note `width` and `height` may be assigned to so be careful, esp. if using these names as class fields! It's not entirely clear, for example, how `PApplet.width` corresponds to `PApplet.g.width`.
 
 
 ***
