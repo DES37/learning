@@ -1,9 +1,10 @@
 # Processing
 
-[TOC]
+# Contents
+{:.no_toc}
 
----
-
+* TOC
+{:toc}
 
 
 ## Links
