@@ -2,6 +2,14 @@
 
 ## Try Blocks
 
+try
+[processing](https://processing.org/reference/try.html)
+[java](https://docs.oracle.com/javase/tutorial/essential/exceptions/try.html)
+
+catch
+[processing](https://processing.org/reference/catch.html)
+[java](https://docs.oracle.com/javase/tutorial/essential/exceptions/catch.html)
+
 In catch block it might be useful to:
 
     e.printStackTrace();  // the only useful output from a Java Throwable
@@ -13,10 +21,7 @@ Note `Exception` is the generic catchall name.
 
 ### Refs
 
-* https://processing.org/reference/try.html
-* https://processing.org/reference/catch.html
-* https://docs.oracle.com/javase/tutorial/essential/exceptions/try.html
-* https://docs.oracle.com/javase/tutorial/essential/exceptions/catch.html
+* [Lesson: Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html)
 
 
 ## Etc
