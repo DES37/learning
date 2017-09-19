@@ -6,21 +6,10 @@ See [PGraphics javadoc](http://processing.github.io/processing-javadocs/core/pro
 OPENGL
 
 
-
-
-[smooth(), noSmooth() behavior](https://github.com/processing/processing/issues/3357) Processing Issue.
-
-
+[smooth(), noSmooth() behavior #3357](https://github.com/processing/processing/issues/3357) Processing Issue.
 
 
 See public accessors `sketchWidth()`, `sketchSmooth()`, etc.
-
-
-Rendering Performance
-
-https://www.youtube.com/watch?v=NZG3g0NRR4I
-
-performance and rendering, review those notes and forum posts, incl about smooth, what primitives, and quirks about renderers
 
 ## `PGraphics` Class
 
@@ -79,7 +68,7 @@ extends PImage!
 
 Note:
 
-- colorMode: RGB=1, HSB=3
+* colorMode: RGB=1, HSB=3
 
 #### PGraphics methods of note
 
@@ -95,7 +84,6 @@ method              | ?
 `printMatrix()`     | ~push/pop/reset/applyMatrix
 `printProjection()` | ~camera
 
-
 ---
 
 ### Smooth
@@ -103,6 +91,3 @@ method              | ?
 Specify smooth levels can be 2, 3, 4, 8. The the default renderer uses _bicubic smoothing_ `smooth(3)` unless otherwise specified. The P2D and P3D renderes default to _2x anti-aliasing_ (`smooth(2)`). The others correspond to 4x and 8x anti-aliasing (double check). Can also choose `noSmooth()`.
 
 When using PGraphics smoothing must be set before call to `beginDraw()`.
-
-
----
