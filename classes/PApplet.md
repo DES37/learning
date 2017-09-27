@@ -43,6 +43,8 @@ Processing sketches are `PApplet` objects.
     int[] pixels  // color datatype
     static int platform
 
+Note that `g` can be equivalently accessed by `getGraphics()`.
+
 ## PApplet Methods
 
 ### PApplet Paths
