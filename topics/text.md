@@ -14,7 +14,7 @@ Strings are defined inside double quotes, and characters inside single quotes.
 
 ## Drawing Text
 
-`text()` draws text. 3 parameter version sets position. 4 parameter version sets bounding box.
+`text()` draws text. 3 parameter version sets position. 4 parameter version sets bounding box (respects textAlign(), except BASELINE is treated like TOP). 
 
 `textSize()`
 
@@ -40,5 +40,9 @@ textFont(...)
 ```
 
 Tools->Create Font... converts to VLW pixel font format.
+
+## Questions
+
+Why does setting textAlign(*, CENTER) not actually center vertically? It's even that way in docs!
 
 
